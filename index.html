@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+     
+    />
+    <link rel="stylesheet" href="shanestyle.css"/>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="jumbotron row">Weather Search</h1>
+      <div class="row">
+      <div class= "col-3">
+      <div id="cityBtn" class="enter subcityBtn">
+        <div class="row">
+      <form id="input-form" class="row">
+        <label></label>
+        
+        <input type="text" id="city-input" value="Enter your City" />
+        <input id="find-city" class="btn btn-primary" type="submit" value="City Search" />
+      </form>
+      </div>
+      </div>
+    </div>
+        <div class="col-9">
+      <div id="currentCity" class="jumbotron"></div>
+      <div id="fiveDayForecast" class="row"></div>
+    </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
